@@ -9,7 +9,6 @@
 * ==========================
 * In this script you will use your pseudo code and state machine to build a traffic light that cycles between the 3 states.
 * You can copy any code snippets used in the previous scripts. 
-* Fill this script in on Day 2.
 */
 
 
