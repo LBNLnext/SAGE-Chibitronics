@@ -34,7 +34,8 @@ void setup() {
 // L O O P
 //----------------------
 // NB: Everything in the loop is repeated
-// Take a look at your blink code, copy the loop section here. What needs to be changed to make the red LED blink?
+// Exercise a) Take a look at your blink code below. What needs to be changed to make the red LED blink? Try it!
+// Exercise b) Add some code to make amber and green LEDs blink too. Try it! 
 void loop() {
 
   on(5);
