@@ -4,7 +4,7 @@
 * rmdcarney for Berkeley Lab
 * ==========================
 * 
-*  Script 2: Playing with Code
+*  Script 1: Playing with Code
 * 
 * ==========================
 * This script will cause 3 of the pins to execute a flash pattern
@@ -34,13 +34,13 @@ void setup() {
 // L O O P
 //----------------------
 // NB: Everything in the loop is repeated
-// Exercise a) Take a look at your blink code below. What needs to be changed to make the red LED blink? Try it!
-// Exercise b) Add some code to make amber and green LEDs blink too. Try it! 
+// Run the code. What do you see happen to your traffic light circuit?
+// Exercise - Add some code to make amber and green LEDs blink too. Try it! 
 void loop() {
 
-  on(5);
+  on(redLED);
   pause(1000);
-  off(5);
+  off(redLED);
   pause(1000);
   
 }
