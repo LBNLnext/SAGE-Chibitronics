@@ -1,5 +1,5 @@
 /*===============
-* S A G E - 2022
+* S A G E
 * ==========================
 * rmdcarney for Berkeley Lab
 * ==========================
@@ -31,11 +31,11 @@ void setup() {
 void loop(){
 
  //Declare positive integer variable 'interval', set its value to 500
- unsigned interval = 500; 
+  unsigned interval = 500; 
   
   off(0);   // turn OFF pin 0
   delay(interval); //Wait for 'interval' number of milliseconds    
   on(0);    //turn ON pin 0 
-   delay(interval);  
+  delay(interval);  
 
 }  
