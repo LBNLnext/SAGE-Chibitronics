@@ -43,22 +43,22 @@ void setup() {
 // Turn on the LEDs across all 6 pins in sequence. 
 void loop() {
 
-    on(LED0);
-    pause(pauseInterval);
-    off(LED0);
-  	on(LED1);
-    pause(pauseInterval);
-  	off(LED1);
-  	on(LED2);
-    pause(pauseInterval);
-    off(LED2);
-  	on(LED3);
-    pause(pauseInterval);
+  on(LED0);
+  pause(pauseInterval);
+  off(LED0);
+  on(LED1);
+  pause(pauseInterval);
+  off(LED1);
+  on(LED2);
+  pause(pauseInterval);
+  off(LED2);
+  on(LED3);
+  pause(pauseInterval);
 	off(LED3);
-  	on(LED4);
-    pause(pauseInterval);
+  on(LED4);
+  pause(pauseInterval);
 	off(LED4);
-  	on(LED5);
+  on(LED5);
 	pause(pauseInterval);
 	off(LED5);
 }
