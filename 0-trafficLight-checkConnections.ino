@@ -54,12 +54,12 @@ void loop() {
   off(LED2);
   on(LED3);
   pause(pauseInterval);
-	off(LED3);
+  off(LED3);
   on(LED4);
   pause(pauseInterval);
-	off(LED4);
+  off(LED4);
   on(LED5);
-	pause(pauseInterval);
-	off(LED5);
+  pause(pauseInterval);
+  off(LED5);
 }
 
