@@ -4,7 +4,7 @@
 * rmdcarney for Berkeley Lab
 * ==========================
 * 
-*  Script 4: Traffic light
+*  Script 2: Traffic light
 * 
 * ==========================
 * In this script you will use your pseudo code and state machine to build a traffic light that cycles between the 3 states.
@@ -35,12 +35,37 @@ void setup() {
 // NB: Everything in the loop is repeated
 void loop() {
 
-      on(redLED);
-      on(amberLED);
-      on(greenLED);
-      pause(1000);
-      off(redLED);
-      off(amberLED);
-      off(greenLED);
-      pause(1000);
+//----------------------
+// STOP State
+// Which LED(s) are on? Which LED(s) are off?
+// How long are you in the STOP state for?
+//----------------------
+
+  on(redLED);
+  on(amberLED);
+  on(greenLED);
+  pause(1000);
+
+//----------------------
+// GO State
+// Which LED(s) are on? Which LED(s) are off?
+// How long are you in the GO state for?
+//----------------------
+
+  off(redLED);
+  off(amberLED);
+  off(greenLED);
+  pause(1000);
+
+//----------------------
+// SLOW / WARNING STOP SOON State
+// Which LED(s) are on? Which LED(s) are off?
+// How long are you in the SLOW state for?
+//----------------------
+
+  on(redLED);
+  on(amberLED);
+  on(greenLED);
+  pause(1000);
+
 }
